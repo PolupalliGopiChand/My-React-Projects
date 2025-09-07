@@ -1,0 +1,143 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fafc;
+  color: #475569;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Header Section */
+.header {
+  background-color: #3367d6;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.app-logo {
+  height: 32px;
+  position: absolute;
+  left: 16px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  border-radius: 8px;
+  padding: 4px 8px;
+  max-width: 300px;
+  width: 100%;
+  justify-content: center; 
+  color: #ffffff;
+  border: 1px, solid, #ffffff;
+}
+
+
+.search-icon {
+  width: 20px;
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  flex-grow: 1;
+  background-color: #2850a7;
+  color: #ffffff;
+}
+
+/* History Section */
+.history-container {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.history-list {
+  list-style-type: none;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #ececec;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.2s ease;
+}
+
+.history-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  font-size: 12px;
+  margin-right: 16px;
+  color: #64748b;
+}
+
+.domain-logo {
+  height: 24px;
+  margin-right: 16px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.domain {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+/* Empty View */
+.empty-view {
+  text-align: center;
+  padding: 40px;
+}
+
+.empty-message {
+  font-size: 18px;
+  color: #64748b;
+}
