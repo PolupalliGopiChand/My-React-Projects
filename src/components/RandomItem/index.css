@@ -1,0 +1,14 @@
+.random-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-image{
+    margin-top: 5vh;
+    height: 40vh;
+    width: 40vh;
+    background-size: cover;
+    border-radius: 2vh;
+}

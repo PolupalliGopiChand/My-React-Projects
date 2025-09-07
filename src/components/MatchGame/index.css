@@ -1,0 +1,45 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.scorecard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.trophy-image {
+  height: 40vh;
+  margin-bottom: 20px;
+}
+
+.final-score {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-again-button {
+  display: flex;
+  align-items: center;
+  background-color: #cf60c8;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reset-icon {
+  width: 20px;
+  margin-right: 10px;
+}

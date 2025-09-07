@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c0e3a;
+}
+
+.logo {
+  height: 40px;
+}
+
+.score-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.time {
+  color: #fec653;
+  font-size: 18px;
+}
