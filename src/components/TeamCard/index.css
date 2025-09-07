@@ -1,0 +1,53 @@
+.ipl-team-card {
+  list-style: none;
+  text-decoration: none;
+  width: 50%;
+}
+
+.ipl-team-link {
+  display: flex;
+  width: 80%;
+  color: #ffffff;
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.ipl-team-logo {
+  width: 100px;
+  height: 110px;
+}
+
+.ipl-team-name {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .ipl-team-link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff33;
+    height: 85%;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 24px;
+  }
+  .ipl-team-logo {
+    max-width: 30px;
+    height: 30px;
+  }
+  .ipl-team-name {
+    font-size: 12px;
+  }
+}
